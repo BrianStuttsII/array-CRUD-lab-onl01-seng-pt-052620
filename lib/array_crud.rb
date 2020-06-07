@@ -11,7 +11,7 @@ def create_an_array
 def add_element_to_end_of_array(array, element)
   planets= ["saturn", "earth", "mars", "neptune"]
   
- planets.push << ("arrays!")
+ planets.push << (element)
  
 
 end
@@ -19,7 +19,7 @@ end
 def add_element_to_start_of_array(array, element)
   planets= ["saturn", "earth", "mars", "neptune"]
  
- planets.unshift("wow")
+ planets.unshift(element)
 
 end
 
